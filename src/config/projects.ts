@@ -1,13 +1,13 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 export const projects = [
   {
-    name: "HackNITR Hackathon",
-    desc: "HackNITR is one of the largest student-run hackathons in the eastern India. I lead the technical team and developed the official HackNITR hackathon website with a focus on high performance, responsiveness, and SEO.",
-    github: "https://github.com/dscnitrourkela/project-oregano",
-    demo: "https://hacknitr.com/",
+    name: "IntellectoToys",
+    desc: "The toy marketplace website is visually appealing and focuses on a specific toy category. It offers a seamless user experience with authentication, registration, and login systems, along with dynamic and interactive pages featuring sliders, image galleries, tabbed category sections, and toy listings.",
+    github: "https://github.com/Raqibur-Rahman/IntellectoToys-Client-Side",
+    demo: "https://intellectotoys.web.app/",
     preview:
-      "https://res.cloudinary.com/pritish007/image/upload/v1644919181/Personal%20Portfolio/hacknitr_c1znha.png",
-    tech: ["Gatsby", "JavaScript", "Emotion"],
+      "https://i.ibb.co/cyMBdyW/Intellecto-Toys1.jpg",
+    tech: ["React", "JavaScript", "Node.js", "Express", "MongoDB", "Firebase", "Vercel"],
     featured: true,
   },
   {
