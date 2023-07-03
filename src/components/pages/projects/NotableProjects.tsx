@@ -35,6 +35,7 @@ type NotableProjectsProp = {
   name: string;
   desc: string;
   github: string;
+  githubServer: string;
   demo: string;
   // preview: string;
   // tech: Array<string>;

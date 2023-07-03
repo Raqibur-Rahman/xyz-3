@@ -177,6 +177,7 @@ function ProjectCard({
   name,
   desc,
   github,
+  githubServer,
   demo,
   preview,
   tech,
@@ -222,15 +223,6 @@ function ProjectCard({
 
         <IconsWrapper>
           <HStack>
-            <Link style={{ textDecoration: "none" }} href={github} isExternal>
-              <Button
-                colorScheme="facebook"
-                leftIcon={<FaGithub />}
-                variant="outline"
-              >
-                GitHub
-              </Button>
-            </Link>
 
             <Link style={{ textDecoration: "none" }} href={demo} isExternal>
               <Button
@@ -241,6 +233,28 @@ function ProjectCard({
                 Live
               </Button>
             </Link>
+
+            <Link style={{ textDecoration: "none" }} href={github} isExternal>
+              <Button
+                colorScheme="facebook"
+                leftIcon={<FaGithub />}
+                variant="outline"
+              >
+                GitHub Client Side
+              </Button>
+            </Link>
+
+            <Link style={{ textDecoration: "none" }} href={githubServer} isExternal>
+              <Button
+                colorScheme="facebook"
+                leftIcon={<FaGithub />}
+                variant="outline"
+              >
+                GitHub Server Side
+              </Button>
+            </Link>
+
+
           </HStack>
         </IconsWrapper>
 
