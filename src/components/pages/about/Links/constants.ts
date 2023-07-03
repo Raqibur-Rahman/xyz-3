@@ -67,7 +67,7 @@ export const socialLinks: Array<MotionLinkProps> = [
   ,
   {
     platformName: "LinkedIn",
-    url: "https://linkedin.com/in/pritishsamal",
+    url: "https://www.linkedin.com/in/raqibur/",
     icon: FaLinkedin,
   },
   
