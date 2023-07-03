@@ -10,7 +10,7 @@ const Footer = () => {
         <Links />
       </Flex>
 
-      <Text align="center" fontSize={["xs", "sm"]}>
+      {/* <Text align="center" fontSize={["xs", "sm"]}>
         Built with{" "}
         <span style={{ marginRight: "5px", marginLeft: "5px" }}>💜</span> by{" "}
         <Link
@@ -18,9 +18,9 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Pritish Samal
+          Md. Raqibur Rahman Roni
         </Link>
-      </Text>
+      </Text> */}
     </Stack>
   );
 };

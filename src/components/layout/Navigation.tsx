@@ -43,15 +43,16 @@ const navigations: NavItemProps[] = [
   {
     href: "/projects",
     label: "Projects",
-  },
-  {
-    href: "/blog",
-    label: "Blog",
-  },
-  {
-    href: "/sessions",
-    label: "Sessions",
-  },
+  }
+  // ,
+  // {
+  //   href: "/blog",
+  //   label: "Blog",
+  // },
+  // {
+  //   href: "/sessions",
+  //   label: "Sessions",
+  // },
 ];
 
 const Navigation = () => {

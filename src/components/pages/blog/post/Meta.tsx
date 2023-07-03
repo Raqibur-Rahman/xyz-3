@@ -34,8 +34,8 @@ const BlogPostMeta = ({ postData }: BlogPostMetaProps) => {
         images={[]}
         datePublished={new Date(postData.date).toISOString()}
         dateModified={new Date(postData.date).toISOString()}
-        authorName="Pritish Samal"
-        description={`A blog post by Pritish Samal explaining about ${postData.title}`}
+        authorName="Md. Raqibur Rahman Roni"
+        description={`A blog post by Md. Raqibur Rahman Roni explaining about ${postData.title}`}
       />
     </>
   );

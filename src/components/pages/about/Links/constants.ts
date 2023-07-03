@@ -55,42 +55,25 @@ export const childAnimationProps = {
 export const socialLinks: Array<MotionLinkProps> = [
   {
     platformName: "GitHub",
-    url: "https://github.com/CIPHERTron",
+    url: "https://github.com/Raqibur-Rahman",
     icon: FaGithub,
-  },
-  {
-    platformName: "Resume",
-    url: "https://pritishsamal.com/resume.pdf",
-    icon: FaFileAlt,
-  },
+  }
+  // ,
+  // {
+  //   platformName: "Resume",
+  //   url: "https://drive.google.com/file/d/1FCZRmnKTeiOCbEjf1eSvW4W2aUT3TX96/view?usp=sharing",
+  //   icon: FaFileAlt,
+  // }
+  ,
   {
     platformName: "LinkedIn",
     url: "https://linkedin.com/in/pritishsamal",
     icon: FaLinkedin,
   },
-  {
-    platformName: "Twitter",
-    url: "https://twitter.com/PritishSamal11",
-    icon: FaTwitter,
-  },
-  {
-    platformName: "dev.to",
-    url: "https://dev.to/ciphertron",
-    icon: FaDev,
-  },
+  
   {
     platformName: "Mail ID",
-    url: "mailto:pritish.samal918@gmail.com",
+    url: "mailto:raqibur.a@gmail.com",
     icon: FaEnvelope,
-  },
-  {
-    platformName: "Instagram",
-    url: "https://instagram.com/pritish__007",
-    icon: FaInstagram,
-  },
-  {
-    platformName: "Twitch",
-    url: "https://twitch.tv/pritishsamal/",
-    icon: FaTwitch,
   },
 ];

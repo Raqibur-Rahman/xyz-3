@@ -1,8 +1,9 @@
-import { Box, Flex, Text, useColorMode } from "@chakra-ui/react";
+import { Box, Button, Flex, Text, useColorMode } from "@chakra-ui/react";
 import Link from "next/link";
 
 import Navigation from "./Navigation";
 import ThemeToggle from "./ThemeToggle";
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 const Header = () => {
   const { colorMode } = useColorMode();
@@ -35,11 +36,24 @@ const Header = () => {
             cursor="pointer"
             fontSize={["md", "xl"]}
           >
-            PS.
+            Md. Raqibur Rahman Roni
           </Text>
         </Link>
 
         <Navigation />
+
+
+        <a
+          style={{ textDecoration: "none" }}
+          href="https://drive.google.com/file/d/1FCZRmnKTeiOCbEjf1eSvW4W2aUT3TX96/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button leftIcon={<FaExternalLinkSquareAlt />}>
+            Resume
+          </Button>
+        </a>
+
 
         <ThemeToggle />
       </Flex>

@@ -36,14 +36,7 @@ const HeroSection = () => {
         width={["100%"]}
         marginTop={[8, 0]}
       >
-        <Image
-          borderRadius="full"
-          boxSize="250px"
-          src="https://res.cloudinary.com/pritish007/image/upload/v1647859319/Personal%20Portfolio/Pritish_1_clsbba.jpg"
-          alt="Pritish Samal"
-          marginTop={[8, 4]}
-          marginBottom={[8, 4]}
-        />
+
         <Heading
           as="h1"
           color="#808080"
@@ -53,27 +46,24 @@ const HeroSection = () => {
         >
           Hi, I&apos;m{" "}
           <Box color={nameColor} display="inline-block">
-            Pritish Samal
+            Md. Raqibur Rahman Roni
           </Box>{" "}
-          from India
+          from Bangladesh
         </Heading>
         <Text textAlign="center" fontWeight="bold" fontSize={["md", "xl"]}>
-          Full Stack Developer and Cloud Enthusiast
+          Full Stack Developer
         </Text>
-        <Link
-          style={{ textDecoration: "none" }}
-          mt={7}
-          isExternal
-          href="https://pritishsamal.com/resume.pdf"
-        >
-          <Button
-            leftIcon={<FaExternalLinkSquareAlt />}
-            colorScheme="teal"
-            variant="solid"
-          >
-            Resume
-          </Button>
-        </Link>
+
+
+        <Image
+          borderRadius="full"
+          boxSize="250px"
+          src="https://i.ibb.co/n7mNJ1J/1.png"
+          alt="Personal Logo Md. Raqibur Rahman Roni "
+          marginTop={[8, 4]}
+          marginBottom={[8, 4]}
+        />
+      
       </Flex>
     </Container>
   );

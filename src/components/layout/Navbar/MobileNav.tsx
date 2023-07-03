@@ -21,7 +21,7 @@ const Brand = () => {
         cursor="pointer"
         fontSize="xl"
       >
-        PS.
+        RRR
       </Text>
     </Link>
   );
