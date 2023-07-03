@@ -22,6 +22,7 @@ function ProjectPage() {
               name={item.name}
               desc={item.desc}
               github={item.github}
+              githubServer={item.githubServer}
               demo={item.demo}
               preview={item.preview}
               tech={item.tech}

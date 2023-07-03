@@ -168,6 +168,7 @@ type ProjectCardProps = {
   name: string;
   desc: string;
   github: string;
+  githubServer: string;
   demo: string;
   preview: string;
   tech: Array<string>;
@@ -195,7 +196,7 @@ function ProjectCard({
           <span className="icon">
             <FaLock />
           </span>
-          <span className="url">pritishsamal.com</span>
+          <span className="url">https://raqibur-portfolio.web.app</span>
         </WebsiteUrl>
         <span />
       </TabBar>

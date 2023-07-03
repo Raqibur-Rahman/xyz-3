@@ -14,7 +14,7 @@ const Footer = () => {
         Built with{" "}
         <span style={{ marginRight: "5px", marginLeft: "5px" }}>💜</span> by{" "}
         <Link
-          href="https://pritishsamal.com"
+          href="https://https://raqibur-portfolio.web.app"
           target="_blank"
           rel="noopener noreferrer"
         >

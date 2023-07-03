@@ -12,7 +12,7 @@ export const defaultSEOConfig: DefaultSeoProps = {
   description: `${websiteName}'s Portfolio Website | Raqibur-Rahman`,
   canonical: "https://sznm.dev",
   openGraph: {
-    url: "https://pritishsamal.com",
+    url: "https://https://raqibur-portfolio.web.app",
     title: websiteName,
     description: `${websiteName}'s Portfolio Website`,
     images: [
