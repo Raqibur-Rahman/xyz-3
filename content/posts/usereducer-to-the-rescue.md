@@ -7,7 +7,7 @@ description: "Have you ever felt the need of an easier way to manage complex sta
 published: true
 latest: false
 cover: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pm6023ow729zuo6exzas.png"
-articleLink: "https://dev.to/ciphertron/usereducer-hook-to-the-rescue-2j48"
+articleLink: "https://dev.to/Raqibur-Rahman/usereducer-hook-to-the-rescue-2j48"
 tags:
   - React
   - JavaScript
@@ -193,7 +193,7 @@ You can find the full codebase [**here**](https://codesandbox.io/s/usereducer-tu
 
 This type of structure can come handy when you've a complex state logic. Here we keep the **actions** and **reducers** separately inside a **store** directory and you just import them and use wherever required.
 
-That was all about the `useReducer()` hook. Hope you liked it. Do like, share and comment your suggestions below. I'm trying to be consistent in publishing articles now xD. There are a few other blogs lined up too. They'll be on the **Context API** in React, beginner's guide to **Kubernetes**, **Golang Minutes**, my **MLH Prep Fellowship** experience, all about **LFX Mentorship Program**, **GitHub Campus Experts** program and many more. If you're interested in such content, do follow me [dev.to/ciphertron](https://dev.to/ciphertron). You can find more about me at [pritishsamal.com](https://pritishsamal.com).
+That was all about the `useReducer()` hook. Hope you liked it. Do like, share and comment your suggestions below. I'm trying to be consistent in publishing articles now xD. There are a few other blogs lined up too. They'll be on the **Context API** in React, beginner's guide to **Kubernetes**, **Golang Minutes**, my **MLH Prep Fellowship** experience, all about **LFX Mentorship Program**, **GitHub Campus Experts** program and many more. If you're interested in such content, do follow me [dev.to/Raqibur-Rahman](https://dev.to/Raqibur-Rahman). You can find more about me at [pritishsamal.com](https://pritishsamal.com).
 
 ### Relevant Links:
 

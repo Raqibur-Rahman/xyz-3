@@ -1,7 +1,7 @@
 ---
 title: mini-node-exporter
-projectLink: https://github.com/CIPHERTron/mini-node-exporter
-repoLink: https://github.com/CIPHERTron/mini-node-exporter
+projectLink: https://github.com/Raqibur-Rahman/mini-node-exporter
+repoLink: https://github.com/Raqibur-Rahman/mini-node-exporter
 description: template to initialize vite react-ts app with Chakra UI setup
 date: "2021-03-28"
 icon: "/app_icons/nextarter-chakra.svg"

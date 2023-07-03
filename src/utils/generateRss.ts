@@ -37,7 +37,7 @@ export const generateRss = async (
         url: `https://pritishsamal.com/blog/${item.id}`,
         date: item.date,
         description: "",
-        author: "CIPHERTron",
+        author: "Raqibur-Rahman",
         custom_elements: [{ "content:encoded": item.contentHtml }],
       });
     }

@@ -44,7 +44,7 @@ const navigations: NavItemProps[] = [
     href: "/projects",
     label: "Projects",
   }
-  // ,
+  ,
   // {
   //   href: "/blog",
   //   label: "Blog",

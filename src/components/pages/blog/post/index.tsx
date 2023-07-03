@@ -30,7 +30,7 @@ const BlogPost = ({ postData }: BlogPostProps) => {
 
       <Box marginY={12}>
         <Giscus
-          repo="CIPHERTron/portfolio-v2"
+          repo="Raqibur-Rahman/portfolio-v2"
           repoId="R_kgDOGYrouQ"
           mapping="pathname"
           category="Blog Post"

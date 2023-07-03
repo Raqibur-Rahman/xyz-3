@@ -1,24 +1,27 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import type { DefaultSeoProps } from "next-seo";
 
+// Constant for the duplicated string
+const websiteName = "Md. Raqibur Rahman Roni";
+
 // https://github.com/garmeeh/next-seo#nextseo-options
 export const defaultSEOConfig: DefaultSeoProps = {
-  title: "Md. Raqibur Rahman Roni",
-  titleTemplate: "%s | CIPHERTron",
-  defaultTitle: "CIPHERTron | Raqibur Rahman",
-  description: "Md. Raqibur Rahman Roni's Portfolio Website | CIPHERTron",
+  title: "Home",
+  titleTemplate: "%s | Raqibur-Rahman",
+  defaultTitle: "Raqibur-Rahman | Raqibur Rahman",
+  description: `${websiteName}'s Portfolio Website | Raqibur-Rahman`,
   canonical: "https://sznm.dev",
   openGraph: {
     url: "https://pritishsamal.com",
-    title: "Md. Raqibur Rahman Roni",
-    description: "Md. Raqibur Rahman Roni's Portfolio Website",
+    title: websiteName,
+    description: `${websiteName}'s Portfolio Website`,
     images: [
       {
         url: "https://res.cloudinary.com/pritish007/image/upload/v1644348821/Personal%20Portfolio/Favicon_nckr8a.png",
         alt: "sznm.dev og-image",
       },
     ],
-    site_name: "Md. Raqibur Rahman Roni",
+    site_name: websiteName,
   },
   twitter: {
     handle: "@PritishSamal11",

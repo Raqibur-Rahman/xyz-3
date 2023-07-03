@@ -13,7 +13,7 @@ export const projects = [
   {
     name: "Kaagaz by D361",
     desc: "Implemented a highly scalable frontend for the official magazine of NIT Rourkela along with a custom markdown parser. Incorporated blog, progressive web app (PWA) & animation features for a seamless experience using Next.js, TypeScript, Styled Components, integrated Google Analytics, and deployed it on Vercel.",
-    github: "https://github.com/CIPHERTron/kaagaz",
+    github: "https://github.com/Raqibur-Rahman/kaagaz",
     demo: "https://kaagaz.org.in",
     preview:
       "https://res.cloudinary.com/pritish007/image/upload/v1644865967/Personal%20Portfolio/Projects/Screenshot_2022-02-15_at_12.42.02_AM_ug11wv.png",
@@ -26,17 +26,17 @@ export const projects = [
     github: "https://github.com/dscnitrourkela/project-icecream",
     demo: "https://frame.dscnitrourkela.org/",
     preview:
-      "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/work/frame/Frame.png",
+      "https://raw.githubusercontent.com/Raqibur-Rahman/portfolio/main/public/images/work/frame/Frame.png",
     tech: ["React", "TypeScript", "CSS", "Material UI"],
     featured: true,
   },
   {
     name: "Mini Node Exporter",
     desc: "Mini Node Exporter is a simpler form of the famous node-exporter project of the Prometheus organization. It is basically a type of monitoring stack and an exporter for hardware and OS metrics that are exposed by the prom-client. It is built with Express, Prometheus, Grafana. ",
-    github: "https://github.com/CIPHERTron/mini-node-exporter",
-    demo: "https://github.com/CIPHERTron/mini-node-exporter/blob/main/README.md",
+    github: "https://github.com/Raqibur-Rahman/mini-node-exporter",
+    demo: "https://github.com/Raqibur-Rahman/mini-node-exporter/blob/main/README.md",
     preview:
-      "https://raw.githubusercontent.com/CIPHERTron/portfolio/main/public/images/work/standalone/grafana.png",
+      "https://raw.githubusercontent.com/Raqibur-Rahman/portfolio/main/public/images/work/standalone/grafana.png",
     tech: ["Express", "Prometheus", "Grafana", "Docker", "Docker Compose"],
     featured: true,
   },
@@ -53,7 +53,7 @@ export const projects = [
   {
     name: "FoodVerse",
     desc: "FoodVerse is a cross platform food delivvery app built using React Native. Using this app, the user can check the restaurants and the dishes they offer, can order items, track the progress of their delivery.",
-    github: "https://github.com/CIPHERTron/foodverse",
+    github: "https://github.com/Raqibur-Rahman/foodverse",
     demo: "https://youtu.be/WOKwn7W-qk4",
     preview: "",
     tech: ["JavaScript", "React Native", "React Navigation"],
@@ -71,8 +71,8 @@ export const projects = [
   {
     name: "Portfolio Site v1",
     desc: "Built the first version of my portfolio website using Next.js, TypeScript, Emotion and deployed it on Vercel.",
-    github: "https://github.com/CIPHERTron/portfolio",
-    demo: "https://ciphertron.vercel.app",
+    github: "https://github.com/Raqibur-Rahman/portfolio",
+    demo: "https://Raqibur-Rahman.vercel.app",
     preview: "",
     tech: ["TypeScript", "Next.js", "Emotion"],
     featured: false,
@@ -80,7 +80,7 @@ export const projects = [
   {
     name: "Project Osha",
     desc: "OSHA is a one stop solution for all these problems. You can signup on our webapp as a doctor or a patient. While on the signup page, you can locate nearby hospitals and pharmaceuticals in emergency and make an emergency call as well.",
-    github: "https://github.com/CIPHERTron/project-osha",
+    github: "https://github.com/Raqibur-Rahman/project-osha",
     demo: "https://youtu.be/WncnfWuffXA",
     preview: "",
     tech: ["React", "Material UI", "Firebase"],
@@ -89,7 +89,7 @@ export const projects = [
   {
     name: "Football Store",
     desc: "Amazon like E-Commerce site built using React, Material UI, Context API, Stripe API and Firebase. It uses Firestore to track cart details, Firebase Hosting and Cloud Functions for Stripe payments.",
-    github: "https://github.com/CIPHERTron/amazon-clone",
+    github: "https://github.com/Raqibur-Rahman/amazon-clone",
     demo: "https://clone-2d395.web.app/",
     preview: "",
     tech: ["React", "Material UI", "Firebase", "Stripe"],

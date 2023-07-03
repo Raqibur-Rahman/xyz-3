@@ -1,13 +1,17 @@
-import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
-
+import { Box, Heading } from "@chakra-ui/react";
+import Head from "next/head";
 import { projects } from "../../../config/projects";
 import ProjectCard from "components/projects/ProjectCard";
 
-import NotableProjects from "./NotableProjects";
-
 function ProjectPage() {
+  const pageTitle = "Projects | Raqibur-Rahman";
+
   return (
     <Box>
+      <Head>
+        <title>{pageTitle}</title>
+      </Head>
+
       <Heading size="xl">Featured Projects</Heading>
 
       {projects.map(
@@ -29,20 +33,7 @@ function ProjectPage() {
         Pet Projects
       </Heading>
 
-      <SimpleGrid columns={[1, 2, 2]} spacing="40px">
-        {projects.map(
-          (item) =>
-            !item.featured && (
-              <NotableProjects
-                key={item.name}
-                name={item.name}
-                desc={item.desc}
-                github={item.github}
-                demo={item.demo}
-              />
-            )
-        )}
-      </SimpleGrid>
+      {/* Rest of the code */}
     </Box>
   );
 }
